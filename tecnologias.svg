@@ -111,7 +111,7 @@
         }
       </style>
         <div class="parent">
-            <div class="nes-container with-title is-centered paren">
+            <div class="nes-container is-dark with-title is-centered paren">
                 <p class="title">Web Development</p>
                 <p>Good morning. Thou hast had a good night's sleep, I hope.</p>
                 <img src="img/html.png" alt="HTML" width="50px"/>
@@ -124,7 +124,7 @@
                 <img src="img/typescript.png" alt="TYPESCRIPT" width="50px"/>
                 <img src="img/nodejs-alt.png" alt="NODE" width="50px"/>
             </div>
-            <div class="nes-container with-title is-centered">
+            <div class="nes-container is-dark with-title is-centered">
                 <p class="title">IDE's and Engines</p>
                 <p>Good morning. Thou hast had a good night's sleep, I hope.</p>
                 <img src="img/unity.png" alt="UNITY" width="50px"/>
@@ -149,14 +149,14 @@
                 <img src="img/flutter.png" alt="FLUTTER" width="50px"/>
                 <img src="img/swift.png" alt="SWIFT" width="50px"/>
             </div>
-            <div class="nes-container with-title is-centered">
+            <div class="nes-container is-dark with-title is-centered">
                 <p class="title">Other</p>
                 <p>Good morning. Thou hast had a good night's sleep, I hope.</p>
                 <img src="img/git.png" alt="GIT" width="50px"/>
                 <img src="img/github.png" alt="GITHUB" width="50px"/>
                 <img src="img/gitlab.png" alt="GITLAB" width="50px"/>
             </div>
-            <div class="nes-container with-title is-centered">
+            <div class="nes-container is-dark with-title is-centered">
                 <p class="title">UI/UX</p>
                 <p>Good morning. Thou hast had a good night's sleep, I hope.</p>
                 <img src="img/figma.png" alt="FIGMA" width="50px"/>
