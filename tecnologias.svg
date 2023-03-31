@@ -1,0 +1,169 @@
+<svg fill="none" viewBox="0 0 900 700" width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .P {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+            margin-top: 10px;
+        }	
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 25px;
+            grid-row-gap: 25px;
+        }
+
+        .nes-container {
+            position: relative;
+            padding: 1.5rem 2rem;
+            border-color: black;
+            border-style: solid;
+            border-width: 4px;
+        }
+
+        .nes-container > :last-child {
+            margin-bottom: 0;
+        }
+
+        .nes-container.is-centered {
+            text-align: center;
+        }
+
+        .nes-container.is-right {
+            text-align: right;
+        }
+
+        .nes-container.with-title >.title {
+            display: table;
+            padding: 0 0.5rem;
+            margin: -1.8rem 0 1rem;
+            font-size: 1rem;
+            background-color: white;
+        }
+
+        .nes-container.with-title.is-centered >.title {
+            margin: -2rem auto 1rem;
+        }
+
+        .nes-container.with-title.is-right >.title {
+            margin: -2rem 0 1rem auto;
+        }
+
+        .nes-container.is-dark {
+            position: relative;
+            margin: 4px;
+            color: white;
+            background-color: #212529;
+            border-color: white;
+        }
+
+        .nes-container.is-dark::after {
+            position: absolute;
+            top: -7.2px;
+            right: -7.2px;
+            bottom: -7.2px;
+            left: -7.2px;
+            z-index: -1;
+            content: "";
+            background-color: #212529;
+        }
+
+        .nes-container.is-dark.with-title >.title {
+            color: white;
+            background-color: #212529;
+        }
+
+        .nes-container.is-rounded {
+            padding: 1rem 1.5rem;
+            margin: 4px;
+        }
+
+        .nes-container.is-rounded.with-title >.title {
+            margin-top: -1.5rem;
+        }
+
+        .nes-container.is-rounded.with-title.is-centered >.title {
+            margin: -1.5rem auto 1rem;
+        }
+
+        .nes-container.is-rounded.with-title.is-right >.title {
+            margin: -1.5rem 0 1rem auto;
+        }
+
+        .nes-container.is-rounded.is-dark::after {
+            content: none;
+        }
+
+        .nes-container.is-rounded.is-dark.with-title >.title {
+            margin-top: -1.3rem;
+        }
+
+        .nes-container.is-rounded.is-dark.with-title.is-centered >.title {
+            margin: -1.3rem auto 1rem;
+        }
+
+        .nes-container.is-rounded.is-dark.with-title.is-right >.title {
+            margin: -1.3rem 0 1rem auto;
+        }
+      </style>
+        <div class="parent">
+            <div class="nes-container with-title is-centered paren">
+                <p class="title">Web Development</p>
+                <p>Good morning. Thou hast had a good night's sleep, I hope.</p>
+                <img src="img/html.png" alt="HTML" width="50px"/>
+                <img src="img/css.png" alt="CSS" width="50px"/>
+                <img src="img/js.png" alt="JAVASCRIPT" width="50px"/>
+                <img src="img/bootstrap.png" alt="BOOTSTRAP" width="50px"/>
+                <img src="img/reactjs.png" alt="REACTJS" width="50px"/>
+                <img src="img/vuejs.png" alt="VUEJS" width="50px"/>
+                <img src="img/sass.png" alt="SASS" width="50px"/>
+                <img src="img/typescript.png" alt="TYPESCRIPT" width="50px"/>
+                <img src="img/nodejs-alt.png" alt="NODE" width="50px"/>
+            </div>
+            <div class="nes-container with-title is-centered">
+                <p class="title">IDE's and Engines</p>
+                <p>Good morning. Thou hast had a good night's sleep, I hope.</p>
+                <img src="img/unity.png" alt="UNITY" width="50px"/>
+                <img src="img/eclipse.png" alt="ECLIPSE" width="50px"/>
+                <img src="img/vs.png" alt="VS" width="50px"/>
+                <img src="img/vscode.png" alt="VSCODE" width="50px"/>
+                <img src="img/netbean.png" alt="NETBEAN" width="50px"/>
+                <img src="img/intellyj.png" alt="INTELLYJ" width="50px"/>
+            </div>
+            <div class="nes-container is-dark with-title is-centered">
+                <p class="title">Back End and Database</p>
+                <p>Good morning. Thou hast had a good night's sleep, I hope.</p>
+                <img src="img/java.png" alt="JAAVA" width="50px"/>
+                <img src="img/springboot.png" alt="SPRIG" width="50px"/>
+                <img src="img/csharp.png" alt="C#" width="50px"/>
+                <img src="img/mysql.png" alt="MYSQL" width="50px"/>
+                <img src="img/posgree.png" alt="POSTGRE" width="50px"/>
+            </div>
+            <div class="nes-container is-dark with-title is-centered">
+                <p class="title">Mobile</p>
+                <p>Good morning. Thou hast had a good night's sleep, I hope.</p>
+                <img src="img/flutter.png" alt="FLUTTER" width="50px"/>
+                <img src="img/swift.png" alt="SWIFT" width="50px"/>
+            </div>
+            <div class="nes-container with-title is-centered">
+                <p class="title">Other</p>
+                <p>Good morning. Thou hast had a good night's sleep, I hope.</p>
+                <img src="img/git.png" alt="GIT" width="50px"/>
+                <img src="img/github.png" alt="GITHUB" width="50px"/>
+                <img src="img/gitlab.png" alt="GITLAB" width="50px"/>
+            </div>
+            <div class="nes-container with-title is-centered">
+                <p class="title">UI/UX</p>
+                <p>Good morning. Thou hast had a good night's sleep, I hope.</p>
+                <img src="img/figma.png" alt="FIGMA" width="50px"/>
+                <img src="img/photoshop.png" alt="PHOTOSHOP" width="50px"/>
+                <img src="https://raw.githubusercontent.com/Skliport/adopteros/main/assets/img/img-4.jpg?token=GHSAT0AAAAAAB74GVRYLFHSAGQH26A6TDBSZBGSUOQ" alt="PHOTOSHOP" width="50px"/>
+            </div>
+        </div>
+    </div>
+  </foreignObject>
+</svg>
